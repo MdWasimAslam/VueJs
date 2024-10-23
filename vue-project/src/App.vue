@@ -1,12 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
-
+  import Parent from './components/components/Parent.vue';
+  import Text from './components/TextInterpolation/Text.vue';
+  import AttributeBinding from './components/AttributeBinding/AttributeBinding.vue';
+  import GlobalStyles from './components/Styles/GlobalStyles.vue';
+  import LocalStyles from './components/Styles/LocalStyles.vue';
+  import CombinedStyles from './components/Styles/CombinedStyles.vue';
+  import ModuleStyles from './components/Styles/ModuleStyles.vue';
 </script>
 
 <template>
   <div>
-    <HelloWorld />
-    
+    <h1>App Component</h1>
+    <!-- <Parent/> -->
+     <!-- <Text/> -->
+    <!-- <AttributeBinding/> -->
+     <GlobalStyles/>
+     <LocalStyles/>
+     <CombinedStyles/>  
+     <ModuleStyles/>
   </div>
 
 </template>
