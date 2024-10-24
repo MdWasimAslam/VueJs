@@ -6,6 +6,8 @@
   import LocalStyles from './components/Styles/LocalStyles.vue';
   import CombinedStyles from './components/Styles/CombinedStyles.vue';
   import ModuleStyles from './components/Styles/ModuleStyles.vue';
+  import Event from './components/Events/Event.vue';
+  import Reactive from './components/Events/Reactive.vue';
 </script>
 
 <template>
@@ -14,10 +16,13 @@
     <!-- <Parent/> -->
      <!-- <Text/> -->
     <!-- <AttributeBinding/> -->
-     <GlobalStyles/>
+     <!-- <GlobalStyles/>
      <LocalStyles/>
      <CombinedStyles/>  
-     <ModuleStyles/>
+     <ModuleStyles/> -->
+
+      <!-- <Event/> -->
+      <Reactive/>
   </div>
 
 </template>
