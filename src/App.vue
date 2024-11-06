@@ -8,6 +8,7 @@ import ModuleStyles from './components/04_Styling/ModuleStyles.vue';
 import Event from './components/05_Events/Events_.vue';
 import ReactiveData from './components/06_Reactivity/ReactiveData.vue';
 import RefData from './components/06_Reactivity/RefData.vue';
+import ComputedProperties from './components/07_Computed/ComputedProperties.vue';
 </script>
 
 
@@ -22,8 +23,8 @@ import RefData from './components/06_Reactivity/RefData.vue';
   <!-- <ModuleStyles /> -->
    <!-- <Event/> -->
    <!-- <ReactiveData/> -->
-   <RefData/>
-
+   <!-- <RefData/> -->
+  <ComputedProperties/>
 </template>
 
 
