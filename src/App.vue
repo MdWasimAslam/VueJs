@@ -24,7 +24,7 @@ import ComputedProperties from './components/07_Computed/ComputedProperties.vue'
    <!-- <Event/> -->
    <!-- <ReactiveData/> -->
    <!-- <RefData/> -->
-  <ComputedProperties/>
+  <!-- <ComputedProperties/> -->
 </template>
 
 
