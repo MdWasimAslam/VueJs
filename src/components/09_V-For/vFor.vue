@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue';
 
   let fruits = ['Apple','Mango','Banana','Guava','Oranges']
 </script>
