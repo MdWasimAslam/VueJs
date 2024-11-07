@@ -11,6 +11,8 @@ import RefData from './components/06_Reactivity/RefData.vue';
 import ComputedProperties from './components/07_Computed/ComputedProperties.vue';
 import ConditionRendering from './components/08_ConditionRendering/ConditionRendering.vue';
 import vFor from './components/09_V-For/vFor.vue';
+import VModel from './components/10_vModel/vModel.vue';
+
 </script>
 
 
@@ -28,7 +30,8 @@ import vFor from './components/09_V-For/vFor.vue';
    <!-- <RefData/> -->
   <!-- <ComputedProperties/> -->
    <!-- <ConditionRendering/> -->
-  <vFor/>
+  <!-- <vFor/> -->
+   <VModel/>
 </template>
 
 
