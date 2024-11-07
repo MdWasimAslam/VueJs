@@ -12,7 +12,7 @@ import ComputedProperties from './components/07_Computed/ComputedProperties.vue'
 import ConditionRendering from './components/08_ConditionRendering/ConditionRendering.vue';
 import vFor from './components/09_V-For/vFor.vue';
 import VModel from './components/10_vModel/vModel.vue';
-
+import Props from './components/11_Props/Props.vue';
 </script>
 
 
@@ -25,13 +25,14 @@ import VModel from './components/10_vModel/vModel.vue';
   <!-- <DynamicBinding /> -->
   <!-- <GlobalStyles /> -->
   <!-- <ModuleStyles /> -->
-   <!-- <Event/> -->
-   <!-- <ReactiveData/> -->
-   <!-- <RefData/> -->
+  <!-- <Event/> -->
+  <!-- <ReactiveData/> -->
+  <!-- <RefData/> -->
   <!-- <ComputedProperties/> -->
-   <!-- <ConditionRendering/> -->
+  <!-- <ConditionRendering/> -->
   <!-- <vFor/> -->
-   <VModel/>
+  <!-- <VModel/> -->
+  <Props />
 </template>
 
 
