@@ -1,5 +1,4 @@
 <script setup>
-
 // import ParentComponent from './components/NestedComponents/ParentComponent.vue';
 // import TextInterpolation from './components/TextInterpolation/TextInterpolation.vue';
 // import AttributeBinding from './components/Binding/AttributeBinding.vue';
@@ -24,7 +23,11 @@
 
 // import PropsValidation from './components/11_Props/PropsValidation.vue';
 // import ComplexProps from './components/11_Props/ComplexProps.vue';
-import CustomValidator from './components/11_Props/CustomValidator.vue';
+// import CustomValidator from './components/11_Props/CustomValidator.vue';
+// import ComponentEvents from './components/12_ComponentEvents/ComponentEvents.vue';
+// import Slots_ from './components/13_Slots/Slots_.vue';
+// import Provide_Inject from './components/14_Provide&Inject/Provide_Inject.vue';
+import LifeCycleHooks from './components/15_LifeCycleHooks/LifeCycleHooks.vue';
 </script>
 
 
@@ -53,8 +56,16 @@ import CustomValidator from './components/11_Props/CustomValidator.vue';
   :userInfo="{name:'alex',age:20,location:['Earth','IDK']}"
   /> -->
 
-  <CustomValidator name="Wasism" :age="2433" password="555"/>
-  <Props />
+  <!-- <CustomValidator name="Wasism" :age="2433" password="555"/> -->
+  <!-- <ComponentEvents/> -->
+
+  <!-- <Props /> -->
+  <!-- <Slots_>
+    <h1>Slot used</h1>
+    <h2>Content 2</h2>
+  </Slots_> -->
+  <!-- <Provide_Inject/> -->
+   <LifeCycleHooks/>
 </template>
 
 
