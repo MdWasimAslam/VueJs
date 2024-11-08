@@ -7,3 +7,4 @@
 
   <h1>Life Cycle</h1>
 </template>
+
