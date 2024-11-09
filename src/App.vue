@@ -27,7 +27,9 @@
 // import ComponentEvents from './components/12_ComponentEvents/ComponentEvents.vue';
 // import Slots_ from './components/13_Slots/Slots_.vue';
 // import Provide_Inject from './components/14_Provide&Inject/Provide_Inject.vue';
-import LifeCycleHooks from './components/15_LifeCycleHooks/LifeCycleHooks.vue';
+// import LifeCycleHooks from './components/15_LifeCycleHooks/LifeCycleHooks.vue';
+// import WatcherComponent from './components/16_Watchers/WatcherComponent.vue';
+import TemplateRefComponent from './components/17_TemplateRef/TemplateRefComponent.vue';
 </script>
 
 
@@ -65,7 +67,9 @@ import LifeCycleHooks from './components/15_LifeCycleHooks/LifeCycleHooks.vue';
     <h2>Content 2</h2>
   </Slots_> -->
   <!-- <Provide_Inject/> -->
-  <LifeCycleHooks />
+  <!-- <LifeCycleHooks /> -->
+  <!-- <WatcherComponent /> -->
+   <TemplateRefComponent/>
 </template>
 
 
