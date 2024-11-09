@@ -29,7 +29,8 @@
 // import Provide_Inject from './components/14_Provide&Inject/Provide_Inject.vue';
 // import LifeCycleHooks from './components/15_LifeCycleHooks/LifeCycleHooks.vue';
 // import WatcherComponent from './components/16_Watchers/WatcherComponent.vue';
-import TemplateRefComponent from './components/17_TemplateRef/TemplateRefComponent.vue';
+// import TemplateRefComponent from './components/17_TemplateRef/TemplateRefComponent.vue';
+import AsyncComponent from './components/18_AsyncComponent/AsyncComponent.vue';
 </script>
 
 
@@ -69,7 +70,8 @@ import TemplateRefComponent from './components/17_TemplateRef/TemplateRefCompone
   <!-- <Provide_Inject/> -->
   <!-- <LifeCycleHooks /> -->
   <!-- <WatcherComponent /> -->
-   <TemplateRefComponent/>
+   <!-- <TemplateRefComponent/> -->
+  <AsyncComponent/>
 </template>
 
 
