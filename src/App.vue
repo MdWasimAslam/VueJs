@@ -30,7 +30,8 @@
 // import LifeCycleHooks from './components/15_LifeCycleHooks/LifeCycleHooks.vue';
 // import WatcherComponent from './components/16_Watchers/WatcherComponent.vue';
 // import TemplateRefComponent from './components/17_TemplateRef/TemplateRefComponent.vue';
-import AsyncComponent from './components/18_AsyncComponent/AsyncComponent.vue';
+// import AsyncComponent from './components/18_AsyncComponent/AsyncComponent.vue';
+import ComposableComponent from './components/19_Composable/ComposableComponent.vue';
 </script>
 
 
@@ -71,7 +72,8 @@ import AsyncComponent from './components/18_AsyncComponent/AsyncComponent.vue';
   <!-- <LifeCycleHooks /> -->
   <!-- <WatcherComponent /> -->
    <!-- <TemplateRefComponent/> -->
-  <AsyncComponent/>
+  <!-- <AsyncComponent/> -->
+   <ComposableComponent/>
 </template>
 
 
