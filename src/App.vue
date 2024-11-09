@@ -65,7 +65,7 @@ import LifeCycleHooks from './components/15_LifeCycleHooks/LifeCycleHooks.vue';
     <h2>Content 2</h2>
   </Slots_> -->
   <!-- <Provide_Inject/> -->
-   <LifeCycleHooks/>
+  <LifeCycleHooks />
 </template>
 
 
